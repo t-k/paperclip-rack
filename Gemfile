@@ -4,4 +4,3 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'pry', :platform => :ruby
-gem 'pry-debugger', :platform => :ruby

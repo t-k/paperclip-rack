@@ -33,5 +33,3 @@ end
 def multipart_file(name)
   File.join(File.dirname(__FILE__), "multipart", name.to_s)
 end
-
-# File.join(File.dirname(__FILE__), "test","multipart", name.to_s)
