@@ -4,9 +4,11 @@ Enable paperclip file upload on Non-Rails rack application such as Sinatra
 
 ## Installation
 
+Add 'include Paperclip::Glue' to your model
+
 Add this line to your application's Gemfile:
 
-    gem 'paperclip-rack'
+    gem 'paperclip-rack', require: 'paperclip/rack'
 
 And then execute:
 
@@ -15,10 +17,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install paperclip-rack
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
