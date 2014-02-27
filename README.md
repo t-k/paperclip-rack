@@ -1,6 +1,11 @@
 # Paperclip::Rack
 
-Enable paperclip file upload on Non-Rails rack application such as Sinatra
+[![Gem Version](https://badge.fury.io/rb/paperclip-rack.png)](https://rubygems.org/gems/paperclip-rack)
+[![Build Status](https://travis-ci.org/t-k/paperclip-rack.png)](https://travis-ci.org/t-k/paperclip-rack)
+
+If your using paperclip on Non-Rails Rack application (e.g. Sinatra) and getting an error on standard file uploading('Paperclip::AdapterRegistry::NoHandlerError'), you should try this gem.
+
+Paperclip::Rack adds a custom Paperclip FileAdapter to handle file uploading on Rack.
 
 ## Installation
 
